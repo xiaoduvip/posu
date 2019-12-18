@@ -21,10 +21,12 @@
                 dataType: "json",
                 success: function (response) {
                      console.log(response);
-     
-                   alert(response);
                     
-                }
+                },
+                 error: function (ret) {
+                console.log(ret);
+
+            }
             });
         })
     
