@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script type="text/javascript" src="./js/jquery.js"></script>
     <title>霸道破速</title>
@@ -20,8 +19,7 @@
                 data: {action:"ExperiencesSpeedBegin",isPostBk:"1",UserAccount:"051611037046",AreaCode:"0009"},
                 dataType: "json",
                 success: function (response) {
-                     console.log(response);
-                    
+                     console.log(response);   
                 },
                  error: function (ret) {
                 console.log(ret);
